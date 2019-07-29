@@ -18,6 +18,7 @@ img=np.array(img0)
 img2=np.array(img00)
 img3=np.array(img000)
 #pour la 1ère image
+print("pour la 1ére image:")
 moments=cv2.moments(img)
 print(moments)
 huMoments=cv2.HuMoments(moments)
@@ -25,8 +26,10 @@ print(huMoments)
 for i in range(0,7):
     huMoments[i]=-1*math.copysign(1.0,huMoments[i])*math.log10(abs(huMoments[i]))
 print(huMoments)
+print("/n")
 
 #pour la 2ème image
+print("pour la 2eme image:")
 moments=cv2.moments(img2)
 print(moments)
 huMoments=cv2.HuMoments(moments)
@@ -34,8 +37,10 @@ print(huMoments)
 for i in range(0,7):
     huMoments[i]=-1*math.copysign(1.0,huMoments[i])*math.log10(abs(huMoments[i]))
 print(huMoments)
+print("/n")
 
 #pour la 3ème image
+print("pour la 3eme image:")
 moments=cv2.moments(img3)
 print(moments)
 huMoments=cv2.HuMoments(moments)
@@ -43,3 +48,4 @@ print(huMoments)
 for i in range(0,7):
     huMoments[i]=-1*math.copysign(1.0,huMoments[i])*math.log10(abs(huMoments[i]))
 print(huMoments)
+print("/n")

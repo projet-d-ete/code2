@@ -3,8 +3,9 @@ import numpy as np
 import cv2
 import math
 imgpil=Image.open("obj94__0.png")
+imgpil.show()
 img0=imgpil.convert('L')
-
+img0.show()
 img=np.array(img0)
 moments=cv2.moments(img)
 print(moments)

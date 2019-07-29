@@ -26,7 +26,7 @@ print(huMoments)
 for i in range(0,7):
     huMoments[i]=-1*math.copysign(1.0,huMoments[i])*math.log10(abs(huMoments[i]))
 print(huMoments)
-print("/n")
+print("\n")
 
 #pour la 2ème image
 print("pour la 2eme image:")
@@ -37,7 +37,7 @@ print(huMoments)
 for i in range(0,7):
     huMoments[i]=-1*math.copysign(1.0,huMoments[i])*math.log10(abs(huMoments[i]))
 print(huMoments)
-print("/n")
+print("\n")
 
 #pour la 3ème image
 print("pour la 3eme image:")
@@ -48,4 +48,4 @@ print(huMoments)
 for i in range(0,7):
     huMoments[i]=-1*math.copysign(1.0,huMoments[i])*math.log10(abs(huMoments[i]))
 print(huMoments)
-print("/n")
+print("\n")

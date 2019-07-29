@@ -2,9 +2,9 @@ from PIL import Image
 import numpy as np
 import cv2
 import math
-imgpil=Image.open("nn.png")
-imgpil2=Image.open("mm.png")
-imgpil3=Image.open("hh.png")
+imgpil=Image.open("obj94__0.png")
+imgpil2=Image.open("obj94__5.png")
+imgpil3=Image.open("obj94__10.png")
 imgpil.show()
 imgpil2.show()
 imgpil3.show()
